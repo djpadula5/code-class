@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+}  
+
+body {
+    background: #007849;
+}
+
+#container {
+    background: white;
+    width: 960px;
+    margin: 100px auto 100px auto;
+    padding: 25px;
+}
+
+#title-section h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #02233F;
+    color: white;
+    padding: 10px;
+}
+
+#intro {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+#my-neighborhood, #favorite-sights, #favorite-books {
+    margin-top: 15px;
+}
+
+#my-neighborhood h1 {
+    font-size: 24px;
+}
+
+#my-neighborhood h4 {
+    font-size: 18px;
+}
+
+#my-neighborhood p, #neighborhood-sights p {
+    padding: 15px;
+}
+
+#neighborhood-sights ul {
+    list-style-type: none;
+}
+
+#neighborhood-sights li {
+    padding: 0px 0px 15px 25px;    
+}
+
+#neighborhood-sights li a {
+    display: block;
+}
+
+#favorite-books table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#favorite-books th {
+    background-color: #02233F;
+    color: white;
+}
+
+#favorite-books th, #favorite-books td {
+    text-align: left;
+    padding: 8px;
+}
+
+#favorite-books tr {
+    border-bottom: 0.5px solid #e3e3e3;
+}
+
