@@ -13,6 +13,14 @@ body {
     background: #007849;
 }
 
+section#hero {
+    height: 250px;
+    background: url('../img/danielle-padula.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #container {
     background: white;
     width: 960px;

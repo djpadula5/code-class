@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background: #2978A0;
+}
+
+section#header-image { 
+	height: 250px;
+	background: url('../img/brooklyn-bridge.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+section#profile-picture img {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	border: 5px solid #fff;
+	position: relative;
+	top: -100px;
+}
+
+#nabe-pic {
+	float: left;
+	padding: 50px;
+	height: 75%;
+	width: 50%;
+}
+
+section#main-content {
+	position: relative;
+	top: -25px;
+}
+
+#status {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#status h1 {
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+.strip {
+	padding: 100px 50px;
+}
+
+section#my-neighborhood{
+	height: 500px;
+	background-color: #253031; /* danielle */
+}
+
+#my-neighborhood #nabe-description {
+	color: #fff;
+	font-weight: normal;
+	position: relative;
+  	top: 50%;
+    transform: translateY(-50%);
+}
+
+section#my-neighborhood video {
+	border-radius: 500px;
+}
+
+section#my-neighborhood table {
+	border-collapse: collapse;
+	width: 600px;
+	float: right;
+}
+
+section#my-neighborhood table tr td {
+	padding: 10px;
+	text-align: center;
+	background-color: #efefef; /* danielle */
+	font-weight: lighter;
+	font-size: 15px; 
+	color: #58351a;
+	border: 1px solid lightgray; /* danielle */
+}
+
+section#my-neighborhood table th {
+	background-color: #2978A0; /* danielle */
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+}
+
+section#neighborhood-sights {
+	background: #efefef; /* danielle */
+	display: block;
+	overflow: hidden;
+}
+
+#neighborhood-sights #sights-container {
+	float: right;
+}
+
+#neighborhood-sights #description {
+	float: left;
+}
+
+#sights-container ul {
+	list-style-type: none;
+}
+
+#sights-container ul li {
+	padding: 15px;
+}
+
+#sights-container ul li a {
+	text-decoration: none;
+	color: darkgray; 
+	display: block;
+	text-align: center; 
+}
+
+section#neighborhood-sights .text {
+	float: left;
+	width: 500px;
+}
+
+section#neighborhood-sights . neighborhood-sights-pic {
+	float: right;
+}
+
+section#neighborhood-sights .big-text {
+	clear: right;
+	font-style: italic;
+}
+
+section#neighborhood-sights .big-text h2 {
+	text-align: center;
+	font-weight: lighter;
+}
+
+span.rquote{
+	font-family: Georgia, serif;
+	font-size: 70px;
+}
+
+#favorite-books {
+	margin: 50px;
+}
+
+#favorite-books table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+#favorite-books th {
+    background-color: #253031;
+    color: white;
+}
+
+#favorite-books th, #favorite-books td {
+    text-align: left;
+    padding: 8px;
+}
+
+#favorite-books a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#favorite-books tr {
+    border-bottom: 0.5px solid #e3e3e3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
