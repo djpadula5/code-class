@@ -5,10 +5,20 @@
 }
 
 body {
-	background: #2978A0;
+	/*background: #2978A0;*/
+	background: #253031;
 }
 
-section#header-image { 
+/*this provides a wrapper that
+we can use to keep things centered
+on the page*/
+
+.container{
+	width: 1160px;
+	margin: 0 auto;
+}
+
+section#header-image {
 	height: 250px;
 	background: url('../img/brooklyn-bridge.jpg');
 	background-repeat: no-repeat;
@@ -16,37 +26,51 @@ section#header-image {
 	background-position: center;
 }
 
-section#profile-picture img {
-	width: 300px;
-	display: block;
+section#profile-picture{
+	width: 230px;
 	margin: 0 auto;
-	border: 5px solid #fff;
+	background: #fff;
+	z-index: 100;
 	position: relative;
 	top: -100px;
+	padding: 60px 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.2);
 }
 
-#nabe-pic {
-	float: left;
-	padding: 50px;
-	height: 75%;
-	width: 50%;
+section#profile-picture img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 150px;
+	height: 100px;
 }
+
+section#profile-picture h1{
+	font-size: 22px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.deets ul{
+	width: 145px;
+	margin: 0 auto;
+}
+
+.deets li{
+	font-size: 12px;
+	list-style: none;
+	padding-bottom: 10px;
+	text-align: center;
+	color: rgba(0,0,0, .7);
+}
+
 
 section#main-content {
 	position: relative;
 	top: -25px;
 }
 
-#status {
-	width: 500px;
-	margin: 0 auto;
-}
 
-#status h1 {
-	font-size: 60px;
-	color: #fff;
-	text-align: center;
-}
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Lato', sans-serif;
@@ -61,12 +85,21 @@ section#my-neighborhood{
 	background-color: #253031; /* danielle */
 }
 
+#nabe-pic {
+	float: left;
+	height: 400px
+}
+
 #my-neighborhood #nabe-description {
 	color: #fff;
 	font-weight: normal;
-	position: relative;
-  	top: 50%;
-    transform: translateY(-50%);
+	float: left;
+	width: 430px;
+	margin-left: 70px;
+}
+
+#my-neighborhood #nabe-description h1, h2, h3{
+	margin-bottom: 10px;
 }
 
 section#my-neighborhood video {
@@ -84,7 +117,7 @@ section#my-neighborhood table tr td {
 	text-align: center;
 	background-color: #efefef; /* danielle */
 	font-weight: lighter;
-	font-size: 15px; 
+	font-size: 15px;
 	color: #58351a;
 	border: 1px solid lightgray; /* danielle */
 }
@@ -103,7 +136,16 @@ section#neighborhood-sights {
 }
 
 #neighborhood-sights #sights-container {
-	float: right;
+	float: left;
+    clear: right;
+    margin-left: 150px;
+}
+
+#neighborhood-sights #sights-container ul{
+	background: #fff;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0, .2);
 }
 
 #neighborhood-sights #description {
@@ -120,9 +162,9 @@ section#neighborhood-sights {
 
 #sights-container ul li a {
 	text-decoration: none;
-	color: darkgray; 
+	color: darkgray;
 	display: block;
-	text-align: center; 
+	text-align: center;
 }
 
 section#neighborhood-sights .text {
@@ -153,6 +195,10 @@ span.rquote{
 	margin: 50px;
 }
 
+#favorite-books h1{
+	color: #fff;
+}
+
 #favorite-books table {
     border-collapse: collapse;
     width: 100%;
@@ -167,6 +213,7 @@ span.rquote{
 #favorite-books th, #favorite-books td {
     text-align: left;
     padding: 8px;
+    color: #fff;
 }
 
 #favorite-books a {
@@ -178,32 +225,3 @@ span.rquote{
     border-bottom: 0.5px solid #e3e3e3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
